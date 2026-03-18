@@ -1,0 +1,50 @@
+{
+  "cli_version": "0.5.0",
+  "checkpoint_id": "7e7bd9cd9969",
+  "strategy": "manual-commit",
+  "branch": "feature/todo-rest-api",
+  "checkpoints_count": 8,
+  "files_touched": [
+    "build.gradle",
+    "openspec/changes/archive/2026-03-18-todo-rest-api/.openspec.yaml",
+    "openspec/changes/archive/2026-03-18-todo-rest-api/design.md",
+    "openspec/changes/archive/2026-03-18-todo-rest-api/proposal.md",
+    "openspec/changes/archive/2026-03-18-todo-rest-api/specs/openapi-docs/spec.md",
+    "openspec/changes/archive/2026-03-18-todo-rest-api/specs/todo-api/spec.md",
+    "openspec/changes/archive/2026-03-18-todo-rest-api/specs/todo-task/spec.md",
+    "openspec/changes/archive/2026-03-18-todo-rest-api/tasks.md",
+    "src/main/java/io/vpv/spec/openspec_demo/config/OpenApiConfig.java",
+    "src/main/java/io/vpv/spec/openspec_demo/controller/TaskController.java",
+    "src/main/java/io/vpv/spec/openspec_demo/dto/ErrorResponse.java",
+    "src/main/java/io/vpv/spec/openspec_demo/dto/PagedResponse.java",
+    "src/main/java/io/vpv/spec/openspec_demo/dto/TaskCreateRequest.java",
+    "src/main/java/io/vpv/spec/openspec_demo/dto/TaskResponse.java",
+    "src/main/java/io/vpv/spec/openspec_demo/dto/TaskUpdateRequest.java",
+    "src/main/java/io/vpv/spec/openspec_demo/entity/Priority.java",
+    "src/main/java/io/vpv/spec/openspec_demo/entity/Task.java",
+    "src/main/java/io/vpv/spec/openspec_demo/entity/TaskStatus.java",
+    "src/main/java/io/vpv/spec/openspec_demo/exception/GlobalExceptionHandler.java",
+    "src/main/java/io/vpv/spec/openspec_demo/exception/TaskNotFoundException.java",
+    "src/main/java/io/vpv/spec/openspec_demo/repository/TaskRepository.java",
+    "src/main/java/io/vpv/spec/openspec_demo/service/TaskService.java",
+    "src/main/java/io/vpv/spec/openspec_demo/service/TaskServiceImpl.java",
+    "src/main/resources/application-mysql.properties",
+    "src/main/resources/application.properties",
+    "src/test/java/io/vpv/spec/openspec_demo/service/TaskServiceImplTest.java"
+  ],
+  "sessions": [
+    {
+      "metadata": "/7e/7bd9cd9969/0/metadata.json",
+      "transcript": "/7e/7bd9cd9969/0/full.jsonl",
+      "content_hash": "/7e/7bd9cd9969/0/content_hash.txt",
+      "prompt": "/7e/7bd9cd9969/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 41274,
+    "cache_creation_tokens": 104631,
+    "cache_read_tokens": 2548423,
+    "output_tokens": 23205,
+    "api_call_count": 65
+  }
+}
